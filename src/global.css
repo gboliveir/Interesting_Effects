@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1120px) {
+    html {
+        font-size: 93.83%;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 83.5%;
+    }
+}
+
+html, body, input {
+    font-family: 'Poppins', sans-serif;
+}

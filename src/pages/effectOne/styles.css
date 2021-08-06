@@ -1,0 +1,43 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page span {
+  background-color: black;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding: 1rem;
+  letter-spacing: 1px; /* espaçamento entre caracteres */ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+}
+
+.container label {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container input {
+  height: 3rem;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 0 1rem;
+  width: 50rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
